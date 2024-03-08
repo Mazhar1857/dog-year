@@ -1,0 +1,25 @@
+.dog-age {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid yellowgreen; */
+
+    p {
+        /* margin: 8vh 0; */
+        margin-bottom: 20px;
+        font-size: 32px;
+    }
+    img{
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .dog-age p{
+        font-size: 18px;
+    }
+
+    
+}

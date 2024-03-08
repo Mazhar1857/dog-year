@@ -1,0 +1,30 @@
+.home-form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid red; */
+
+    h1 {
+        margin: 20px 0;
+    }
+}
+
+.home-form input {
+    height: 32px;
+    width: 35%;
+    font-size: 28px;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .home-form h1 {
+        font-size: 18px;
+    }
+
+    .home-form input{
+        font-size: 22px;
+    }
+
+}
